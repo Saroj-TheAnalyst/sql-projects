@@ -47,10 +47,17 @@ Make sure you have the following installed:
 - **SQL Database**: You will need a SQL database (MySQL, PostgreSQL, SQLite, etc.) to execute the queries.
 - **Tableau** (Optional): For visualizing the queries and dashboards.
 
-### Setting Up
+## Set Up SQL Database
 
-1. **Clone the Repository**
-   Clone this repository to your local machine:
+To begin with, you need to set up an SQL database where you will store the data from the CSV files. Follow the steps below to set up your database:
 
-   ```bash
-   git clone https://github.com/Saroj-TheAnalyst/Tableau-Projects.git
+1. **Create a New Database**  
+   Depending on the SQL platform you are using (MySQL, PostgreSQL, etc.), create a new database. Here is an example of how to do it on MySQL:
+   
+   ```sql
+   CREATE DATABASE movie_analysis;
+
+### Explanation:
+- **Create Tables**: Details the process of creating tables in your SQL database.
+- **Import the CSV Files**: Provides SQL commands to load the CSV files into your database, depending on the SQL platform you're using (MySQL or PostgreSQL).
+
